@@ -1,0 +1,17 @@
+#MyEclipse Hibernate Properties
+#Sat Jun 23 15:26:49 CST 2018
+genVersionTag=false
+sessionFactoryName=util.HibernateSessionFactory
+genAnnotations=false
+configFile=/WaitsunSpoof/src/hibernate.cfg.xml
+reStrategyClass=
+sessionFactoryId=
+profile=
+detectM2M=false
+genBasicCompId=false
+keyGenerator=
+createConfigFile=true
+basePersistenceClass=
+detectO2O=false
+useJavaTypes=true
+reSettingsFile=
