@@ -14,7 +14,7 @@ import org.hibernate.Transaction;
 
 
 public class LoginRegisterInfo {
-   private Session session;
+    private Session session;
     private Transaction transaction;
     private Query query;
  
@@ -50,10 +50,10 @@ public class LoginRegisterInfo {
             query=session.createQuery(hqlsql);
             query.setParameter(0, value);
 
-           System.out.println("query start");
+            System.out.println("query start");
 			List<UserInfoPO> list=(List<UserInfoPO>)query.list();
-		     System.out.println("query end");
-		     session.beginTransaction().commit();
+		    System.out.println("query end");
+		    session.beginTransaction().commit();
 	    	session.close();
             return list;
           

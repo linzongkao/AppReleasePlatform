@@ -83,6 +83,11 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                        <s:textfield name="email" cssClass="inputbox" label="用户邮箱" size="18"/>
+                    </td>
+                </tr>
+                <tr>
                     <td colspan="2" align="center">
                         <input type="submit" value="提交" class="sub"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <input type="reset" value="清空" class="sub"/>

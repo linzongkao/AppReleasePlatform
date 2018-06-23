@@ -13,7 +13,9 @@ public class RegisterAction extends ActionSupport{
 	private String userName;
     private String password1;
     private String password2;
-    private String mess="error";
+    private String email;
+    
+	private String mess="error";
     private List<UserInfoPO> list;
     public String getUserName() {
         return userName;
@@ -34,6 +36,12 @@ public class RegisterAction extends ActionSupport{
     public void setPassword2(String password2) {
         this.password2 = password2;
     }
+    public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
     
     public void validate(){
         if(this.getUserName()==null||this.getUserName().length()==0){
@@ -56,11 +64,15 @@ public class RegisterAction extends ActionSupport{
         }else if(!this.getPassword1().equals(this.getPassword2())){
             addFieldError("password2","两次密码不一致！");
         }
+        if(this.getEmail()==null){
+        	addFieldError("mail","邮箱不允许为空！");
+        }
     }
     public UserInfoPO userInfo(){
         UserInfoPO info=new UserInfoPO();
         info.setUserName(this.getUserName());
         info.setPassword(this.getPassword1()); 
+        info.setEmail(this.getEmail());
         return info;
     }
    public String execute() throws Exception{

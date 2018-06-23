@@ -10,7 +10,9 @@ public class UserInfoPO  {
      private int id;
      private String userName;
      private String password;
-     @Id
+     private String email;
+     
+	@Id
     public int getId() {
         return this.id;
     } 
@@ -29,6 +31,12 @@ public class UserInfoPO  {
     public void setPassword(String password) {
         this.password = password;
     }
+    public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
 }
 
 
