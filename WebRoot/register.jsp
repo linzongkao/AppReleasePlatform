@@ -5,71 +5,15 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title><s:text name="专业  MAC 应用分享"></s:text></title>
-	    <style type="text/css">
-		    .inputbox{
-				width: 80%;
-				height: 30px;
-				background: white;
-				border-radius: 2px;
-				margin-left: 5px;
-				float: left;
-				border: 1px solid darkgray;
-			
-			}
-		.mtable{
-			margin-top:10%;
-			width: 26%;
-			height: 25%;
-			text-align: center;
-			color: white;
-			border: 1px;
-			white;
-		}
-		.sub{
-
-			width: 20%;
-			height: 100%;
-			font-size: 13px;
-			color: black;
-			background: gainsboro;
-			text-align: center;
-			line-height: 30px;
-					width: 120px;
-					height: 30px;
-			
-			background: rgb(220,140,151);
-	
-		
-		}
-		#fanhui{
-			
-			width: 80%;
-			height: 100%;
-			font-size: 13px;
-			color: black;
-
-			text-align: center;
-			line-height: 30px;
-					width: 180px;
-					height: 30px;
-			
-			background: rgb(220,140,151);
-		}
-		a{
-			text-decoration:none;	
-			
-		}
-	    </style>
+        <link href="css/register.css" rel="stylesheet" type="text/css" />
     </head>
     
     <body style="background:url(imgs/016.jpg);">
         <s:form action="register" method="post">
-         
             <table align="center" class="mtable">
                 <tr>
                     <td>
                         <s:textfield name="userName" cssClass="inputbox" label="用户名字" size="16"/>
- 
                     </td>
                 </tr>
                 <tr>

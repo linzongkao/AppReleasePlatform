@@ -79,6 +79,8 @@ font:13px 'PT Sans', Arial, Tahoma, Verdana, Sans-Serif;color:#393939;
 	position: absolute;
 	top: 28px;
 	right: 0px;
+	height: 100%;
+	width: 100%;
 }   
 #obo_slider img.wp1_left {left:0;right:auto;}
 #obo_slider .oneByOne_item span.txt1{

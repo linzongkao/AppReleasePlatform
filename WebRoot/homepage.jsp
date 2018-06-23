@@ -8,6 +8,7 @@
         <link href="css/main.css" rel="stylesheet" type="text/css" />
 		<link href="css/style.css" rel="stylesheet" type="text/css" />
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+		<link href="css/uptodate.css" rel="stylesheet" type="text/css" />
 		
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/work.js"></script>
@@ -24,7 +25,6 @@
 				slideShow: true  //为false时不会自动播放
 			});  
 		})
-		
 		</script> 
     </head>
     <body>
@@ -115,20 +115,24 @@
 			<!-- <div class="fallback"><img src="imgs/home_page_1_fallback.jpg" alt="" /></div> -->
 			<div id="obo_slider">  				
 				<div class="oneByOne_item">
-					<a href="http://localhost:8080/WaitsunSpoof/source/cmm396.jsp"><img src="imgs/home1.jpg" class="wp1_3 slide1_bot" alt="home1" /></a>
+					<a href="http://localhost:8080/WaitsunSpoof/source/cmm410.jsp"><img src="imgs/cmm410.png" class="wp1_3 slide1_bot" alt="cmm410" /></a>
 					<span class="txt4 txt4up"><a href=""  onclick="javascript:window.open('http://localhost:8080/WaitsunSpoof/login.jsp');" class="btn_l">Sign in / Sign up</a></span>
 				</div>
 				<div class="oneByOne_item">                                 	
-					<a href="http://localhost:8080/WaitsunSpoof/source/tuxera2018.jsp"><img src="imgs/home2.jpg" class="wp1_3 wp1_left slide2_bot" alt="home2" /></a>			            
+					<a href="http://localhost:8080/WaitsunSpoof/source/tuxera2018.jsp"><img src="imgs/tuxera2018.png" class="wp1_3 wp1_left slide2_bot" alt="tuxera2018" /></a>			            
 														
 				</div>	
 				<div class="oneByOne_item">
-					<a href="http://localhost:8080/WaitsunSpoof/source/xmind8pro.jsp"><img src="imgs/home3.jpg" class="wp1_3 slide2_bot" alt="home3" />	</a>
+					<a href="http://localhost:8080/WaitsunSpoof/source/mweb229.jsp"><img src="imgs/mweb229.png" class="wp1_3 slide2_bot" alt="mweb229" />	</a>
 				</div>                                                                                              
 				<div class="oneByOne_item">                                 	
-					<a href="http://localhost:8080/WaitsunSpoof/source/tower266.jsp"><img src="imgs/home4.jpg" class="wp1_3 slide3_bot" alt="home4" />	</a>
+					<a href="http://localhost:8080/WaitsunSpoof/source/tower266.jsp"><img src="imgs/tower266.png" class="wp1_3 slide3_bot" alt="tower266" />	</a>
 				</div>
 			</div>    
+		</div>
+		
+		<div class="uptodate">
+			<p>最近更新</p>
 		</div>
     </body>
 </html>
