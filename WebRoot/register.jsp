@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title><s:text name="基于SH的应用"></s:text></title>
+        <title><s:text name="专业  MAC 应用分享"></s:text></title>
 	    <style type="text/css">
 		    .inputbox{
 				width: 80%;
