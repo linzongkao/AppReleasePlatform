@@ -13,34 +13,34 @@
             <table align="center" class="mtable">
                 <tr>
                     <td>
-                        <s:textfield name="userName" cssClass="inputbox" label="用户名字" size="16"/>
+                        <s:textfield name="userName" cssClass="inputbox" label="用户名字" size="20"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <s:password name="password1" cssClass="inputbox"  label="用户密码" size="18"/>
+                        <s:password name="password1" cssClass="inputbox"  label="用户密码" size="20"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <s:password name="password2" cssClass="inputbox" label="再次输入密码" size="18"/>
+                        <s:password name="password2" cssClass="inputbox" label="确认密码" size="20"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <s:textfield name="email" cssClass="inputbox" label="用户邮箱" size="18"/>
+                        <s:textfield name="email" cssClass="inputbox" label="用户邮箱" size="20"/>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2" align="center">
-                        <input type="submit" value="提交" class="sub"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="reset" value="清空" class="sub"/>
+                        <button type="submit" class="sub">提交</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button type="reset" class="sub">清空</button>
                     </td>
                 </tr>
                 
             </table>
         </s:form>
-         <center><button id="fanhui" onclick="location.href='http://localhost:8080/WaitsunSpoof/login.jsp'">返回</button></center>
+         <center><button class="sub" id="fanhui" onclick="location.href='http://localhost:8080/WaitsunSpoof/login.jsp'">返回</button></center>
     </body>
     
 </html>

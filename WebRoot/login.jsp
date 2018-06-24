@@ -9,19 +9,18 @@
         <title><s:text name="专业  MAC 应用分享"></s:text></title>
      	<link type="text/css" href="css/logincss.css" rel="stylesheet">
         <link type="text/css" href="css/night.css" rel="stylesheet">
-		<link type="text/css" href="css/moon.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/login.css">
     </head>
     <body>
-       	<img src="./imgs/register.jpg" width="40px" height="42px"/>
-    	<a href='http://localhost:8080/WaitsunSpoof/register.jsp'"  style="font-size: 36px;color: white;">注册</a>
+    	<span style="margin-top:30px;"><a href=""  onclick="javascript:window.open('./register.jsp');" class="btn_l">注册 / Sign up</a></span>
+    <!-- 	<a href='./register.jsp'"  style="font-size: 36px;color: white;">注册</a> -->
     	<div id="e_background">
 			<div id="e_smallstars"></div>
 			<div id="e_moon"></div>
 		</div>
 
 		<div class="container">
-			<h1>Welcome</h1>
+			<h1>欢迎来到专业MAC应用分享</h1>
 	        <s:form action="login" method="post">
 	         
 	            <table align="center" class="mtable" >
@@ -38,13 +37,9 @@
 	                        <input name="password" type="password" placeholder="密码"/> 
 	                    </td>
 	                </tr>
-	                <tr>
-	                    <td>
-	                        <s:submit id="login-button" value="登录" />
-	              	  </td>
-	                </tr>
-	              
 	            </table>
+	            <s:submit cssClass="login-button" id="submit1" value="登录" />
+	            <s:reset cssClass="login-button" value="清空" />
 	        </s:form>
 
         </div>

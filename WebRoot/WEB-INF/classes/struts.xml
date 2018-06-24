@@ -4,7 +4,7 @@
 <struts>
     <package name="default" extends="struts-default">
        <action name="login" class="loginRegisterAction.LoginAction">
-            <result name="success">/homepage.jsp</result>
+            <result name="success">/userhomepage.jsp</result>
             <result name="input">/login.jsp</result>
             <result name="error">/login.jsp</result>
         </action>

@@ -1,40 +1,13 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@taglib  prefix="s" uri="/struts-tags" %>
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title><s:text name="专业  MAC 应用分享"></s:text></title>
-        <link href="css/main.css" rel="stylesheet" type="text/css" />
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<title>Insert title here</title>
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
 		<link href="css/style.css" rel="stylesheet" type="text/css" />
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
-		<link href="css/uptodate.css" rel="stylesheet" type="text/css" />
-		
-		<!-- 分页预览 -->
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		</script>
-		<script type="text/javascript">
-			var $ = jQuery.noConflict();
-				$(function() {
-					$('#activator').click(function(){
-						$('#box').animate({'top':'0px'},500);
-					});
-					$('#boxclose').click(function(){
-					$('#box').animate({'top':'-700px'},500);
-					});
-				});
-				$(document).ready(function(){
-				//Hide (Collapse) the toggle containers on load
-				$(".toggle_container").hide(); 
-				//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
-				$(".trigger").click(function(){
-					$(this).toggleClass("active").next().slideToggle("slow");
-						return false; //Prevent the browser jump to the link anchor
-				});
-									
-			});
-		</script>
-		<!-- 分页预览 -->
 		
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/work.js"></script>
@@ -52,8 +25,8 @@
 			});  
 		})
 		</script> 
-    </head>
-    <body>
+	</head>
+	<body>
         <div class="navbg">
 		  <div class="col960">
 		    <ul id="navul" class="cl">
@@ -459,5 +432,5 @@
 			<p>Copyright &copy; 2018.Company name All rights reserved.<a target="_blank" href="https://blog.iamzhl.top/">Contact us</a></p>
 		</div>
 		
-	</body>
+    </body>
 </html>

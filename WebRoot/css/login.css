@@ -164,6 +164,14 @@ form button:hover {
   -webkit-animation-delay: 11s;
           animation-delay: 11s;
 }
+.login-button{
+	width: 22%;
+	float: left;
+	margin-left: 3%;
+}
+#submit1{
+	margin-left: 26.5%;
+}
 @-webkit-keyframes square {
   0% {
     -webkit-transform: translateY(0);
