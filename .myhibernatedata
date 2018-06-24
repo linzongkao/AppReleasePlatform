@@ -1,7 +1,7 @@
 #MyEclipse Hibernate Properties
-#Sun Jun 24 19:25:06 CST 2018
+#Sun Jun 24 19:53:59 CST 2018
 genBasicCompId=true
-sessionFactoryName=util.HibernateSessionFactory
+sessionFactoryName=
 profile=
 daoSFId=
 jndiPath=
